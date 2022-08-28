@@ -243,13 +243,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1200dd67cea7fc4490e8e5a68763bba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seed: 10
-  HeightExtremity: 30
+  Seed: 101
+  HeightExtremity: 56
   HeightSmoothness: 3
-  TemperatureSmoothness: 1
+  TemperatureSmoothness: 2
   HumiditySmoothness: 30
   Octaves: 10
-  OctaveDivisor: 2
+  OctaveDivisor: 5
   DefaultTile: {fileID: 5503749731983179316, guid: 4f15d51ee6bd3b745a399bb847365682,
     type: 3}
   sprites:

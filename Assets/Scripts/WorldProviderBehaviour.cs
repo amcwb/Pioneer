@@ -103,8 +103,8 @@ public class WorldProviderBehaviour : MonoBehaviour
 
         // testingAAAAA
         TextureLoader.PopulateTileIndexToTextureIndex();
-        for (int chunkX = -1; chunkX < 5; chunkX++)
-            for (int chunkY = -1; chunkY < 5; chunkY++)
+        for (int chunkX = -1; chunkX < 7; chunkX++)
+            for (int chunkY = -1; chunkY < 7; chunkY++)
             {
                 int?[,] data = worldProvider.Provide(chunkX, chunkY);
 
